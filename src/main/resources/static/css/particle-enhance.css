@@ -1,0 +1,95 @@
+.quick-prompt,
+.quick-command {
+  color: #1A1A1A !important;
+  background: rgba(255, 255, 255, 0.65) !important;
+  border: 1.5px solid rgba(66, 153, 225, 0.35) !important;
+  border-radius: 12px !important;
+  padding: 10px 16px !important;
+  transition: all 0.2s ease !important;
+}
+
+.quick-prompt:hover,
+.quick-command:hover {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-color: rgba(66, 153, 225, 0.6) !important;
+  box-shadow: 0 4px 12px rgba(66, 153, 225, 0.15) !important;
+  transform: translateY(-1px) !important;
+}
+
+.chat-bubble,
+.message-content,
+.astra-message {
+  color: #1A1A1A !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.auth-btn,
+.login-btn,
+.register-btn {
+  color: #1A1A1A !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  transition: all 0.2s ease !important;
+}
+
+.auth-btn:hover,
+.login-btn:hover,
+.register-btn:hover {
+  background: rgba(255, 255, 255, 1) !important;
+  border-color: rgba(66, 153, 225, 0.4) !important;
+}
+
+.user-info,
+.nickname,
+.logout-link {
+  color: #1A1A1A !important;
+}
+
+.sidebar-container {
+  background: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(15px) !important;
+}
+
+.chat-container {
+  background: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(15px) !important;
+}
+
+input,
+textarea,
+.input-field {
+  color: #1A1A1A !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9CA3AF !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.title,
+.heading {
+  color: #1A1A1A !important;
+}
+
+p,
+.text,
+.content {
+  color: #2D2D2D !important;
+}
+
+.nav-link,
+.sidebar-item,
+.menu-item {
+  color: #1A1A1A !important;
+}
+
+.nav-link:hover,
+.sidebar-item:hover,
+.menu-item:hover {
+  color: #4299E1 !important;
+}
